@@ -4,7 +4,7 @@ import * as regex from 'simple-regex-toolkit';
 import * as PATH from 'path';
 import { parse as qsParse } from 'query-string';
 import * as mime from 'mime-types';
-import * as template from './template-engine';
+import template from './template';
 
 export namespace Server {
 
@@ -63,8 +63,7 @@ export namespace Server {
     }
 }
 
-
-export class server {
+export default class {
 
     public all: Server.SetRouteHandler;
     public get: Server.SetRouteHandler;
@@ -448,6 +447,6 @@ export class server {
     private emit(evt: Server.Events, ...args: any) {
         if (this.listeners[evt])
             for (let i = 0, l = this.listeners[evt].length; i < l; i++)
-                (<any>this.listeners[evt][i])(...args)
+                (<any>this.listeners[evt][i])(...args);
     }
 }

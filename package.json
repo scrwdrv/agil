@@ -2,7 +2,7 @@
   "name": "agil",
   "version": "1.0.0",
   "description": "Super lightweight web framework written in Typescript.",
-  "main": "./lib/server.js",
+  "main": "/lib/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/scrwdrv/agil.git"
   },
+  "files": [
+    "/lib"
+  ],
   "keywords": [
     "http",
-    "web"
+    "web",
+    "web framework",
+    "server",
+    "template",
+    "route",
+    "middleware"
   ],
   "author": "scrwdrv",
   "license": "MIT",
