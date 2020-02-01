@@ -1,0 +1,34 @@
+{
+  "name": "agil",
+  "version": "1.0.0",
+  "description": "Super lightweight web framework written in Typescript.",
+  "main": "./lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrwdrv/agil.git"
+  },
+  "keywords": [
+    "http",
+    "web"
+  ],
+  "author": "scrwdrv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrwdrv/agil/issues"
+  },
+  "homepage": "https://github.com/scrwdrv/agil#readme",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.16",
+    "@types/mime-types": "^2.1.0",
+    "@types/node": "^13.7.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mime-types": "^2.1.26",
+    "query-string": "^6.10.1",
+    "simple-regex-toolkit": "^1.0.3"
+  }
+}
