@@ -1,6 +1,6 @@
 {
   "name": "agil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super lightweight web framework written in Typescript.",
   "main": "/lib/server.js",
   "scripts": {
